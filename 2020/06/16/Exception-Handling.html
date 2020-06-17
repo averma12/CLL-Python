@@ -91,7 +91,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      8 min read
     
 </span></p>
 
@@ -374,6 +374,395 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Uno Fast Fun&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;source_url&#39;</span><span class="p">:</span> <span class="s1">&#39;https://www.amazon.in/UNO-42003-Uno-Fast-Fun/dp/B00004TZY8&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;price&#39;</span><span class="p">:</span> <span class="s1">&#39;₹ 149.00&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;images&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/31PAL9s5S-L.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/516YvMIqL8L.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/513Ko-uHFXL.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/5152b4jUxmL.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/41SJFXFzptL.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/51Q8FYew72L.jpg&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/51aCIYAIWoL.jpg&#39;</span><span class="p">],</span>
+ <span class="s1">&#39;stock_image&#39;</span><span class="p">:</span> <span class="s1">&#39;https://images-na.ssl-images-amazon.com/images/I/51aCIYAIWoL.jpg&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;seller&#39;</span><span class="p">:</span> <span class="s1">&#39;Sold by R &amp; R (4.2 out of 5 stars | 279 ratings).&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;rating&#39;</span><span class="p">:</span> <span class="s1">&#39;4.2 out of 5 stars&#39;</span><span class="p">,</span>
+ <span class="s1">&#39;rating_count&#39;</span><span class="p">:</span> <span class="mi">7210</span><span class="p">,</span>
+ <span class="s1">&#39;features&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Minimum Recommended Age : 4 Years&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;Battries not required&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;See why this color coded card game is such a popular brand of family game&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;Be the first player or team to score 500 points&#39;</span><span class="p">,</span>
+  <span class="s1">&#39;Points are scored by being the first to rid yourself of all the cards in your hand before your opponents&#39;</span><span class="p">],</span>
+ <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s2">&quot;America&#39;s number one card game, UNO offers hours of fun. It&#39;s easy to learn, always unpredictable and never dull. It can be played with 2 to 10 players, individually or in teams and it can even be educational, teaching younger kids number recognition. Add fun and excitement to your family time by playing the Mattel UNO fast fun. This entertaining card game will surely make family get-togethers engaging and interactive. Just like any other card game, you need to focus and strategise your moves to challenge all other players. It is a great exercise to help build up your child&#39;s interactive and interpersonal skills. You can carry this compact Mattel Uno cards game anywhere and keep the boredom away. Ideal to play while your travel long distance in the car, during boring afternoons or as a party wrap-up game. Exciting and easy to play, the Mattel Uno game can be played by 2 to 10 players and is suitable for children aged 7 years and above.Spend quality time with your family while you play this Mattel UNO card game. This UNO card game involves individual players or teams, who have be the first to score 500 points. You have to play the colour coded cards from your hand, which would either match the number or colour of the card that lies on the top of the discarded cards. If your do not have either match, you simply have to pull cards from the fresh deck until you find the match. Piling cards in your hand is a losing site, which means you have to successfully rid yourself of the cards to win this game. When left with only one card in hand, you have to yell UNO and make others jealous.&quot;</span><span class="p">,</span>
+ <span class="s1">&#39;productInfo&#39;</span><span class="p">:</span> <span class="p">[{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Educational Objective(s)&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;Reading&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Main Language(s)&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;English translation, English&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Model Number&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;42003&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Number of Game Players&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;2-10&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Number of Puzzle Pieces&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;1&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Assembly Required&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Scale&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;1/32&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Batteries Required&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Batteries Included&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Material Type(s)&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;other-materials&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Remote Control Included?&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Color&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;multi&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Item Weight&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;90.7 g&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Product Dimensions&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;1.9 x 17.8 x 12.7 cm&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Item model number&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;42003&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s2">&quot;Manufacturer&#39;s Minimum Suggested Age (years)&quot;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;7&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;ASIN&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;B00004TZY8&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Customer Reviews&#39;</span><span class="p">,</span>
+   <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;4.2 out of 5 stars7,210 customer ratings&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Amazon Bestsellers Rank&#39;</span><span class="p">,</span>
+   <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;#983 in Toys &amp; Games (See Top 100 in Toys &amp; Games) #35 in Card Games&#39;</span><span class="p">},</span>
+  <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Date First Available&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;9 April 2012&#39;</span><span class="p">}]}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">name</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Uno Fast Fun&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>However it can be a little risky to directly query dictionaries this way</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;product_name&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">name</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-13-a9f5ada1933a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>get_name<span class="ansi-blue-fg">(</span>data<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-12-d4a208ffbab7&gt;</span> in <span class="ansi-cyan-fg">get_name</span><span class="ansi-blue-fg">(data)</span>
+<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-green-fg">def</span> get_name<span class="ansi-blue-fg">(</span>data<span class="ansi-blue-fg">:</span>dict<span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">-&gt;</span> str<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg">     </span>name <span class="ansi-blue-fg">=</span> data<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#34;product_name&#34;</span><span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span>     <span class="ansi-green-fg">return</span> name
+
+<span class="ansi-red-fg">KeyError</span>: &#39;product_name&#39;</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Dictionaries throw a KeyError when an incorrect key is called. A good way to do it would be to wrap the indexing in a try except block catching the KeyError</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        
+        <span class="n">name</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;product_name&quot;</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s2">&quot;Incorrect Key Entered. Please check key&quot;</span>
+    <span class="k">return</span> <span class="n">name</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="c1">#as you can see error is handled</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&#39;product_name&#39;
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Incorrect Key Entered. Please check key&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Of course <strong>Dictionaries</strong> handle all this implicitly using the get method. Yes Dictionaries are instances of the dictionary class.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        
+        <span class="n">name</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;product_name&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s2">&quot;Incorrect Key Entered. Please check key&quot;</span>
+    <span class="k">return</span> <span class="n">name</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="c1"># as you can see get handles this and keyerror isn&#39;t called</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Of course there's also one other thing that isn't often implemented but does come with the <strong>try</strong> <strong>except</strong> statements is the finally block. Whilst the exception block is executed only if there is an exception. The finally block is executed regardless.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        
+        <span class="n">name</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;product_name&quot;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s2">&quot;Incorrect Key Entered. Please check key&quot;</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">link</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;source_url&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+      
+    <span class="k">return</span> <span class="n">name</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_name</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>https://www.amazon.in/UNO-42003-Uno-Fast-Fun/dp/B00004TZY8
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
