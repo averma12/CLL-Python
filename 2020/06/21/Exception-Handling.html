@@ -9,13 +9,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html" />
-<meta property="og:url" content="https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html" />
+<link rel="canonical" href="https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html" />
+<meta property="og:url" content="https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html" />
 <meta property="og:site_name" content="fastpages" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-16T00:00:00-05:00" />
+<meta property="article:published_time" content="2020-06-21T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Exceptions a deep dive","dateModified":"2020-06-16T00:00:00-05:00","datePublished":"2020-06-16T00:00:00-05:00","url":"https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html"},"@context":"https://schema.org"}</script>
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Exceptions a deep dive","dateModified":"2020-06-21T00:00:00-05:00","datePublished":"2020-06-21T00:00:00-05:00","url":"https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/CLL-Python/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://averma12.github.io/CLL-Python/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/CLL-Python/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Exceptions a deep dive | fastpages</title>
@@ -24,13 +24,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html" />
-<meta property="og:url" content="https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html" />
+<link rel="canonical" href="https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html" />
+<meta property="og:url" content="https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html" />
 <meta property="og:site_name" content="fastpages" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-16T00:00:00-05:00" />
+<meta property="article:published_time" content="2020-06-21T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Exceptions a deep dive","dateModified":"2020-06-16T00:00:00-05:00","datePublished":"2020-06-16T00:00:00-05:00","url":"https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://averma12.github.io/CLL-Python/2020/06/16/Exception-Handling.html"},"@context":"https://schema.org"}</script>
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Exceptions a deep dive","dateModified":"2020-06-21T00:00:00-05:00","datePublished":"2020-06-21T00:00:00-05:00","url":"https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://averma12.github.io/CLL-Python/2020/06/21/Exception-Handling.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -85,13 +85,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Exceptions a deep dive</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-16T00:00:00-05:00" itemprop="datePublished">
-        Jun 16, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Exceptions a deep dive</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-21T00:00:00-05:00" itemprop="datePublished">
+        Jun 21, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      12 min read
     
 </span></p>
 
@@ -533,10 +533,10 @@ window.onload = wrap_img;
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-13-a9f5ada1933a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">&lt;ipython-input-9-a9f5ada1933a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>get_name<span class="ansi-blue-fg">(</span>data<span class="ansi-blue-fg">)</span>
 
-<span class="ansi-green-fg">&lt;ipython-input-12-d4a208ffbab7&gt;</span> in <span class="ansi-cyan-fg">get_name</span><span class="ansi-blue-fg">(data)</span>
+<span class="ansi-green-fg">&lt;ipython-input-8-d4a208ffbab7&gt;</span> in <span class="ansi-cyan-fg">get_name</span><span class="ansi-blue-fg">(data)</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-green-fg">def</span> get_name<span class="ansi-blue-fg">(</span>data<span class="ansi-blue-fg">:</span>dict<span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">-&gt;</span> str<span class="ansi-blue-fg">:</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg">     </span>name <span class="ansi-blue-fg">=</span> data<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#34;product_name&#34;</span><span class="ansi-blue-fg">]</span>
 <span class="ansi-green-intense-fg ansi-bold">      3</span>     <span class="ansi-green-fg">return</span> name
@@ -763,11 +763,306 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Raising-Exceptions">Raising Exceptions<a class="anchor-link" href="#Raising-Exceptions"> </a></h1><p>Let's go to the second case where we raise exceptions. Raising exceptions is an effective way to halt the execution of the program when there are incorrect params entered for example or when there is a doubt that certain values obtained or calculated may end up "breaking" the code/system database etc.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Let&#39;s get the name,description,ratings,seller_info,ratings</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_details</span><span class="p">(</span><span class="n">product</span><span class="p">):</span>
+    <span class="n">obj</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">if</span> <span class="n">product</span><span class="p">:</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;product_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;price&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;price&quot;</span><span class="p">)</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;description&quot;</span><span class="p">)</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;seller&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;seller&quot;</span><span class="p">)</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;features&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;features&quot;</span><span class="p">)</span>
+        <span class="c1"># to get asin we need to loop in productInfo key</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">product</span><span class="p">[</span><span class="s2">&quot;productInfo&quot;</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;ASIN&quot;</span><span class="p">:</span>
+                <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;unique_id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">obj</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_details</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;product_name&#39;: &#39;Uno Fast Fun&#39;,
+ &#39;price&#39;: &#39;₹ 149.00&#39;,
+ &#39;description&#39;: &#34;America&#39;s number one card game, UNO offers hours of fun. It&#39;s easy to learn, always unpredictable and never dull. It can be played with 2 to 10 players, individually or in teams and it can even be educational, teaching younger kids number recognition. Add fun and excitement to your family time by playing the Mattel UNO fast fun. This entertaining card game will surely make family get-togethers engaging and interactive. Just like any other card game, you need to focus and strategise your moves to challenge all other players. It is a great exercise to help build up your child&#39;s interactive and interpersonal skills. You can carry this compact Mattel Uno cards game anywhere and keep the boredom away. Ideal to play while your travel long distance in the car, during boring afternoons or as a party wrap-up game. Exciting and easy to play, the Mattel Uno game can be played by 2 to 10 players and is suitable for children aged 7 years and above.Spend quality time with your family while you play this Mattel UNO card game. This UNO card game involves individual players or teams, who have be the first to score 500 points. You have to play the colour coded cards from your hand, which would either match the number or colour of the card that lies on the top of the discarded cards. If your do not have either match, you simply have to pull cards from the fresh deck until you find the match. Piling cards in your hand is a losing site, which means you have to successfully rid yourself of the cards to win this game. When left with only one card in hand, you have to yell UNO and make others jealous.&#34;,
+ &#39;seller&#39;: &#39;Sold by R &amp; R (4.2 out of 5 stars | 279 ratings).&#39;,
+ &#39;features&#39;: [&#39;Minimum Recommended Age : 4 Years&#39;,
+  &#39;Battries not required&#39;,
+  &#39;See why this color coded card game is such a popular brand of family game&#39;,
+  &#39;Be the first player or team to score 500 points&#39;,
+  &#39;Points are scored by being the first to rid yourself of all the cards in your hand before your opponents&#39;],
+ &#39;unique_id&#39;: &#39;B00004TZY8&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now we've managed to extract the values we wanted to extract. Now suppose we wanted to get seller ratings specifically from the seller key and we want to raise an error if the seller has less than 4.5 stars (<strong>Yikes</strong>) a very high threshold but still let's go with it. Now to extract ratings from seller key, we will be using regular expressions. Regular expressions is a very important and underrated topic in python and will be covered later but for now just assume that there is a function that extracts seller rating from seller key</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>First Let's import re module for this</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_seller_rating</span><span class="p">(</span><span class="n">seller</span><span class="p">:</span><span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">seller_ratings</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s2">&quot;([0-9]+[.][0-9]*|\d+)&quot;</span><span class="p">,</span><span class="n">seller</span><span class="p">)</span>
+    <span class="n">seller_ratings</span> <span class="o">=</span> <span class="n">seller_ratings</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">seller_ratings</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Let&#39;s test it</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_seller_rating</span><span class="p">(</span><span class="s2">&quot;Sold by R &amp; R (4.2 out of 5 stars | 279 ratings).&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>4.2</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's modify our function now</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_details</span><span class="p">(</span><span class="n">product</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        
+        <span class="n">obj</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">product</span><span class="p">:</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;product_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;price&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;price&quot;</span><span class="p">)</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;description&quot;</span><span class="p">)</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;seller&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;seller&quot;</span><span class="p">)</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;features&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;features&quot;</span><span class="p">)</span>
+            
+
+            <span class="n">seller_rating</span> <span class="o">=</span> <span class="n">get_seller_rating</span><span class="p">(</span><span class="n">product</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;seller&quot;</span><span class="p">))</span>
+            <span class="k">if</span> <span class="n">seller_rating</span> <span class="o">&lt;</span> <span class="mf">4.5</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Seller rating less than 4.5&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;seller_rating&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">seller_rating</span>
+
+
+            <span class="c1"># to get asin we need to loop in productInfo key</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">product</span><span class="p">[</span><span class="s2">&quot;productInfo&quot;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;ASIN&quot;</span><span class="p">:</span>
+                    <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;unique_id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+    
+        <span class="k">return</span> <span class="n">obj</span>
+    <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">{}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_details</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Seller rating less than 4.5
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As you can see we have raised Exception when the value is less than the expected value</p>
+
+</div>
+</div>
+</div>
 </div>
 
 
 
-  </div><a class="u-url" href="/CLL-Python/2020/06/16/Exception-Handling.html" hidden></a>
+  </div><a class="u-url" href="/CLL-Python/2020/06/21/Exception-Handling.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
